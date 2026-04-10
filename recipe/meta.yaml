@@ -43,6 +43,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - goanpeca
-    - jaimergp
+    - conda-forge/napari
+    - psobolewskiPhD
     - tdmorello
