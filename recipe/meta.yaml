@@ -1,5 +1,5 @@
 {% set name = "napari-geojson" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5aac6e57c3a90c195bce0cbccd0c4b487de705de176ad530f0b9d1d37f5b871b
+  sha256: a371baecfaa41d1bd1faa2db9d282d29e5cb7aab1c951e6fcce3b4f947ed5945
 
 build:
   noarch: python
